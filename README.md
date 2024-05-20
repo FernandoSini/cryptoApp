@@ -1,4 +1,4 @@
-# cryptoApp
+# cryptoApp v1.0
 Kotlin multiplatform project with compose.
 
 This is a Kotlin Multiplatform project targeting Android, iOS, Desktop.
