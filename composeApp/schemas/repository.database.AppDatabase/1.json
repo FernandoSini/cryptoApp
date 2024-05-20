@@ -1,0 +1,264 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "142ec20d1107499f4e4462175fbeb80b",
+    "entities": [
+      {
+        "tableName": "User",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "CryptoCoin",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `age` INTEGER, `allTimeHighUSD` REAL, `cap` INTEGER, `categories` TEXT NOT NULL, `circulatingSupply` REAL, `code` TEXT, `color` TEXT, `exchanges` INTEGER, `markets` INTEGER, `maxSupply` INTEGER, `name` TEXT, `pairs` INTEGER, `png32` TEXT, `png64` TEXT, `rank` INTEGER, `rate` REAL, `symbol` TEXT, `totalSupply` REAL, `volume` INTEGER, `webp32` TEXT, `webp64` TEXT, `day` REAL, `hour` REAL, `month` REAL, `quarter` REAL, `week` REAL, `year` REAL, `discord` TEXT, `instagram` TEXT, `linkedin` TEXT, `medium` TEXT, `naver` TEXT, `reddit` TEXT, `soundcloud` TEXT, `spotify` TEXT, `telegram` TEXT, `tiktok` TEXT, `twitch` TEXT, `twitter` TEXT, `website` TEXT, `wechat` TEXT, `whitepaper` TEXT, `youtube` TEXT)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "age",
+            "columnName": "age",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "allTimeHighUSD",
+            "columnName": "allTimeHighUSD",
+            "affinity": "REAL"
+          },
+          {
+            "fieldPath": "cap",
+            "columnName": "cap",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "categories",
+            "columnName": "categories",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "circulatingSupply",
+            "columnName": "circulatingSupply",
+            "affinity": "REAL"
+          },
+          {
+            "fieldPath": "code",
+            "columnName": "code",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "color",
+            "columnName": "color",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "exchanges",
+            "columnName": "exchanges",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "markets",
+            "columnName": "markets",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "maxSupply",
+            "columnName": "maxSupply",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "pairs",
+            "columnName": "pairs",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "png32",
+            "columnName": "png32",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "png64",
+            "columnName": "png64",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "rank",
+            "columnName": "rank",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "rate",
+            "columnName": "rate",
+            "affinity": "REAL"
+          },
+          {
+            "fieldPath": "symbol",
+            "columnName": "symbol",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "totalSupply",
+            "columnName": "totalSupply",
+            "affinity": "REAL"
+          },
+          {
+            "fieldPath": "volume",
+            "columnName": "volume",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "webp32",
+            "columnName": "webp32",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "webp64",
+            "columnName": "webp64",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "delta.day",
+            "columnName": "day",
+            "affinity": "REAL"
+          },
+          {
+            "fieldPath": "delta.hour",
+            "columnName": "hour",
+            "affinity": "REAL"
+          },
+          {
+            "fieldPath": "delta.month",
+            "columnName": "month",
+            "affinity": "REAL"
+          },
+          {
+            "fieldPath": "delta.quarter",
+            "columnName": "quarter",
+            "affinity": "REAL"
+          },
+          {
+            "fieldPath": "delta.week",
+            "columnName": "week",
+            "affinity": "REAL"
+          },
+          {
+            "fieldPath": "delta.year",
+            "columnName": "year",
+            "affinity": "REAL"
+          },
+          {
+            "fieldPath": "links.discord",
+            "columnName": "discord",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "links.instagram",
+            "columnName": "instagram",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "links.linkedin",
+            "columnName": "linkedin",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "links.medium",
+            "columnName": "medium",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "links.naver",
+            "columnName": "naver",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "links.reddit",
+            "columnName": "reddit",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "links.soundcloud",
+            "columnName": "soundcloud",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "links.spotify",
+            "columnName": "spotify",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "links.telegram",
+            "columnName": "telegram",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "links.tiktok",
+            "columnName": "tiktok",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "links.twitch",
+            "columnName": "twitch",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "links.twitter",
+            "columnName": "twitter",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "links.website",
+            "columnName": "website",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "links.wechat",
+            "columnName": "wechat",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "links.whitepaper",
+            "columnName": "whitepaper",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "links.youtube",
+            "columnName": "youtube",
+            "affinity": "TEXT"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '142ec20d1107499f4e4462175fbeb80b')"
+    ]
+  }
+}
