@@ -11,7 +11,7 @@ captures
 .externalNativeBuild
 .cxx
 *.xcodeproj/*
-./composeApp/mykeystore
+composeApp/mykeystore
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
 !*.xcodeproj/project.xcworkspace/
